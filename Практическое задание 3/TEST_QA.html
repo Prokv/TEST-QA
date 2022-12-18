@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Задание №3</title>
+    <link
+      href="font-awesome/css/font-awesome.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link 
+      href="style.css" 
+      type="text/css" 
+      rel="stylesheet" />
+  </head>
+  <body>
+    <form class="form" action="/somewhere">
+      <p class="field">
+        <input type="email" name="login" placeholder="Логин" required />
+        <i class="fa fa-user"></i>
+      </p>
+      <p class="field">
+        <input
+          type="password"
+          name="password"
+          placeholder="Пароль"
+          minlength="6"
+          maxlength="20"
+          required
+        />
+        <i class="fa fa-lock"></i>
+      </p>
+      <p class="submit">
+        <button type="submit">Войти</button>
+      </p>
+    </form>
+  </body>
+</html>
